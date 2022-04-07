@@ -13,6 +13,6 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Sizeof a char: %lu byte(s)\n", (unsigned long)sizeof(a)");
-			return (0);
+	printf("Size of a char: %ul byte(s)", (unsigned(sizeof(a));
+        return (0);				
 }

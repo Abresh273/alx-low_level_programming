@@ -13,10 +13,6 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of a char: %lu. (unsigned long)sizeof(a)");
-        printf("Size of a int: %lu. (unsigned long)sizeof(b)");
-        printf("Size of a long int: %lu. (unsigned long)sizeo(c)");
-	printf("Size of a long long int: %lu. (unsigned long)sizeo(d)");
-        printf("Size of a float: %lu.(unsigned long)sizeo(e)");
-        return (0);
+	printf("Sizeof a char: %lu byte(s)\n", (unsigned long)sizeof(a)");
+			return (0);
 }

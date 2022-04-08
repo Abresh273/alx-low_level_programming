@@ -6,12 +6,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int n;
+int n, s;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-int s = n%10;
+s = n%10;
 if(s>5)
 {
 printf("Last digit of %d is %s and is greater than 5\n", n, s);

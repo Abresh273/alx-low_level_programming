@@ -11,3 +11,4 @@ int main(void)
         putchar('\n');
 	return (0);
 }
+/* betty style doc for function main goes there */

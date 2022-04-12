@@ -3,7 +3,7 @@
 /**
  * _abs -  Return absolute value of an integer
  *
- *@n: The int to print
+ *@c: The int to print
  * Return: Always 0.
  */
 

@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-* _abs -  retur absoulute value of a number
+* _abs -  return +ve number weathe the int is +v or -ve 
 *
 *@c: the integre need to be absolut value
 *Return; Always 0.
 */
 
-int _abs(int c )
+int _abs(int c)
 {
 if (c < 0)
 {

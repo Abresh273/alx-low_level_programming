@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-* print_sign - return 0 for 0 value, 1 for posetive & -1 for negative values
+ *
+* print_sign : return 0 for 0 value, 1 for posetive & -1 for negative values
 *
 * @n: the int to evaluate
 *
-* * Return : Always 1.
+*  Return : Always 1.
 *
 *
 */

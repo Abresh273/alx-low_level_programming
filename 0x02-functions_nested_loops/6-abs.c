@@ -7,11 +7,11 @@
  * Return; Always 0.
  */
 
-int _abs(int)
+int _abs(int c )
 {
-	int c;
+	
 
-	if (c<0)
+	if (c < 0)
 	{
 		return (c*c/2);
 	}

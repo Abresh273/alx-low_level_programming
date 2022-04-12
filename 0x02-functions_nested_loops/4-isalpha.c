@@ -4,7 +4,7 @@
 * _isalpha - cheacks for aplphabetic charator
 * @c: The int to print
 *
-* Retirn: Always 0.
+* Return: Always 0.
 *
 */
 

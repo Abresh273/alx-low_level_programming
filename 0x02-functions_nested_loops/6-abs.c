@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - value absolute
+ * _abs -  Return absolute value of an integer
  *
  *@n: The int to print
  * Return: Always 0.
@@ -13,8 +13,6 @@ if (c < 0)
 {
 return (-1 * c);
 }
-else
-{
 return (c);
 }
 }

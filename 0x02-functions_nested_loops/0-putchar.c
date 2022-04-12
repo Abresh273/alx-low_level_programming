@@ -5,9 +5,6 @@
  * Return: Always 0 (Succes)
  */
 int _putchar(void)
-
 {
-
-
-
+return(write(1,&c,1));
 }

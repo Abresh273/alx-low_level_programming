@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_isalpha: cheacks for aplphabetic charator
- *@c: The int to print
+ * _isalpha: cheacks for aplphabetic charator
+ * @c: The int to print
  *
  * Retirn: Always 0.
  *

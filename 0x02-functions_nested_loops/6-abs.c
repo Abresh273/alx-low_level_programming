@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _abs -  return +ve number weathe the int is +v or -ve 
-*
-*@c: the integre need to be absolut value
-*Return; Always 0.
-*/
+ * _abs - value absolute
+ *
+ *@n: The int to print
+ * Return: Always 0.
+ */
 
 int _abs(int c)
 {

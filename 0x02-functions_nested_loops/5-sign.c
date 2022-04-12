@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_sign - find the sign of a value input
- *
- * @n: the int to evaluate
- * Return : Always 1.
- *
- *
- */
+* print_sign - return 0 letter not lowercase, 1 letter lowercase
+*
+* @n: the int to evaluate
+* * Return : Always 1.
+*
+*
+*/
 
 int print_sign(int n)
 {

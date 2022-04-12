@@ -15,4 +15,3 @@ return (-1 * c);
 }
 return (c);
 }
-}

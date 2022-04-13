@@ -16,7 +16,7 @@ _putchar(mult*num);
 _putchar(',');
 _putchar(' ');
 }
-_putchar("\n");
+_putchar('\n');
 }
 }
 

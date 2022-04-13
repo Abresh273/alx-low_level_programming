@@ -13,7 +13,7 @@ for (num=0;num<=n;num++)
 {
 for (mult = 0; mult <= n; mult++)
 _putchar(mult*num);
-_putchar(", ");
+_putchar(, );
 }
 }
 }

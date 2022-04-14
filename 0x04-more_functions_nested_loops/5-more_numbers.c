@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /*
  * more_numbers(void) - print more numbers
  *
@@ -12,9 +12,9 @@ void more_numbers(void)
 	{
 		for(j =  0; j <= 14; j++)
 	       	{
-			printf("%d",j);
+			_putchar(j);
 		}
-		printf("\n");
+		_putchar("\n");
 	}
-	printf("\n");
+	_putchar("\n");
 }

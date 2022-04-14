@@ -7,19 +7,16 @@
 
 void print_most_numbers(void)
 {
-	int i;
-
-		for (i = 0;i < 0;i++)
-		{
-			if (i == 4 || i == 9)
-			{
-			}
-			else
-			{
-				_putchar(i);
-			}
-			
-		}
-		_putchar('\n');
-	
+int i;
+for (i = 0;i < 0;i++)
+{
+if (i == 4 || i == 9)
+{
+}
+else
+{
+_putchar(i);
+}			
+}
+_putchar('\n');	
 }

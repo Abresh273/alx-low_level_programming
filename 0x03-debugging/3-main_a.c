@@ -11,7 +11,7 @@ int main(void)
 {
 int month;
 int day;
-int year;
+int year, convert_day(), print_remaining_days();
 
 month = 2;
 day = 29;

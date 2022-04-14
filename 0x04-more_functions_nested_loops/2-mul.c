@@ -1,6 +1,7 @@
 #include "main.h"
 
-/*mul - multiplay two numbers
+/**
+ * mul - multiplay two numbers
  * @a: integers
  * @b: integer
  *
@@ -9,5 +10,5 @@
 
 int mul(int a, int b)
 {
-	return (a*b);
+return (a*b);
 }

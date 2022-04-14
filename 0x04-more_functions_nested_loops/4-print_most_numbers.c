@@ -15,8 +15,8 @@ if (i == 4 || i == 9)
 }
 else
 {
-_putchar(i);
+_putchar (i);
 }			
 }
-_putchar('\n');	
+_putchar ('\n');	
 }

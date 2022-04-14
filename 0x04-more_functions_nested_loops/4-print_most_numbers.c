@@ -4,19 +4,20 @@
  *
  * Return: Always 0.
  */
-
 void print_most_numbers(void)
 {
+
 int i;
-for (i = 0;i < 0;i++)
+
+i = 0;
+while (i < 10)
 {
-if (i == 4 || i == 9)
+if (i != 2 && i != 4)
 {
+_putchar (i + '0');
 }
-else
-{
-_putchar (i);
-}			
+i++;
 }
-_putchar ('\n');	
+
+_putchar ('\n');
 }

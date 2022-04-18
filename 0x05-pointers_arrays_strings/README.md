@@ -1,0 +1,1 @@
+0x05-pinter_arrays_strings

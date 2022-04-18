@@ -17,7 +17,7 @@ int _atoi(char *s)
 	
 	for (i=0;s[i] != '\0'; i++)
 	{
-		if (s[i] > = 48 || s[i] <= 57)
+		if (s[i] >= 48 || s[i] <= 57)
 		{
 			_putchar(s[i]);
 		}

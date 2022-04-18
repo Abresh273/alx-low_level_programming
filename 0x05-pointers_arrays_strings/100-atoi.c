@@ -24,7 +24,7 @@ int _atoi(char *s)
 		}
 	}
 
-	a = int(a);
+	a = int (a);
 
 	return (a);
 }

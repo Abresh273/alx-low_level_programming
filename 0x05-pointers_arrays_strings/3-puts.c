@@ -2,7 +2,7 @@
 /**
 * _puts - printout the str
 *
-* @*str : input string
+* @str : input string
 *
 * Return : Always 0.
 *

@@ -1,8 +1,8 @@
 #include "main.h"
-/*
-*reset_to_98 - takes a pointeras parameter and updates the value
+/**
+* reset_to_98 - takes a pointeras parameter and updates the value
 * 
-*@n: integer input
+* @n : integer input
 *
 * Return : Always 0
 */

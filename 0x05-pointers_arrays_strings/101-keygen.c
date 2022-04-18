@@ -11,14 +11,13 @@
  *
  */
 
-void main(void)
+int main(void)
 {
 	int num;
 	srnad(time(0);
 	num = rand();
 	printf("%i\n",num);
-	return (0);
-
+        return (0);
 
 }
 

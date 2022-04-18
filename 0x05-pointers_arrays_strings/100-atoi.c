@@ -13,7 +13,8 @@
 
 int _atoi(char *s)
 {
-	int i,a;
+	int i;
+	char *a;
 	
 	for (i=0;s[i] != '\0'; i++)
 	{

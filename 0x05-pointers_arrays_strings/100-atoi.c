@@ -14,7 +14,7 @@
 int _atoi(char *s)
 {
 	int i;
-	int *a;
+	char *a;
 	
 	for (i=0;s[i] != '\0'; i++)
 	{
@@ -23,6 +23,8 @@ int _atoi(char *s)
 			a[i]=s[i];
 		}
 	}
+
+	a = int(a);
 
 	return (a);
 }

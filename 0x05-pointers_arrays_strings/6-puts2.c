@@ -16,9 +16,10 @@ void puts2(char *str)
 		i++;
 	}
 
-	for(j = 0; j < i ;j++)
+	for(j < i)
 	{
-		_putchar();
+		_putchar(j);
+		i++;
 	}
 }
 

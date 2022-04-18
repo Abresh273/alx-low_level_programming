@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- *
- * _puts - printout the str
- *
- * @*str : input string
- *
- * Return : Always 0.
- *
- */
+*
+* _puts - printout the str
+*
+* @*str : input string
+*
+* Return : Always 0.
+*
+*/
 void _puts(char *str)
 {
 int i;

@@ -2,9 +2,8 @@
 
 /**
  * swap_int - fuction
- * 
  * @*a : input value first
- *
+ * 
  * @*b :input value second
  *
  * Return : Always 0
@@ -19,3 +18,4 @@ void swap_int(int *a, int *b)
 
 
 }
+

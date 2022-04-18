@@ -17,7 +17,7 @@ int _atoi(char *s)
 	
 	for (i=0;s[i] != '\0'; i++)
 	{
-		a+=(s[i]);
+		a=a+(s[i]);
 	}
 
 	return (a);

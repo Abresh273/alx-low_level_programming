@@ -14,10 +14,11 @@
 int _atoi(char *s)
 {
 	int i;
+	int a;
 	for (i=0;s[i] != '\0'; i++)
 	{
-		_putchar(s[i]);
+		a = + _putchar(s[i]);
 	}
 
-	return (1);
+	return (a);
 }

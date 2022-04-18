@@ -14,9 +14,12 @@
 int main(void)
 {
 	int num;
-	srand(time(15));
+	srand(time(0));
 	num = rand();
+	for (num =0 ; num<15;num++){
+	
 	printf("%i\n",num);
-        return (0);
+	}
+	return (0);
 }
 

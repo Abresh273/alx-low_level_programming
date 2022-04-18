@@ -13,12 +13,15 @@
 
 int _atoi(char *s)
 {
-	int i,a;
+	int i;
 	
 	for (i=0;s[i] != '\0'; i++)
 	{
-		a=a+(s[i]);
+		if (s[i] > = 48 || s[i] <= 57)
+		{
+			_putchar(s[i]);
+		}
 	}
 
-	return (a);
+	return (0);
 }

@@ -22,7 +22,6 @@ void rev_string(char *s)
 	for (a = i ;a > 0; a--)
 	{
 		_putchar(s[a]);
-		 _putchar(s[a]);
 	}
 	
 }

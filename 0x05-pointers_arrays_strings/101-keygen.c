@@ -18,7 +18,7 @@ int main(void)
 	num = rand();
 	for (num =0 ; num<15;num++){
 	
-	printf("%i\n",num);
+	printf("%i\n",num % 50);
 	}
 	return (0);
 }

@@ -20,5 +20,5 @@ int _atoi(char *s)
 		a = s[i];
 	}
 
-	return (a);
+	return ("");
 }

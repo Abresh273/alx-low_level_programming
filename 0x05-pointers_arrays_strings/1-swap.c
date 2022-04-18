@@ -3,8 +3,8 @@
 /**
 * swap_int - fuction
 * @*a : input value first
-* 
-* @*b :input value second
+*
+* @*b : input value second
 *
 * Return : Always 0
 *

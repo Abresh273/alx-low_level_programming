@@ -1,33 +1,30 @@
 #include "main.h" 
-
-
-
 /**
-  * rot13 - ...
-  * @s: ...
+  * rot13 - encode a string with rot13
+  * @p: the string
   *
-  * Return: ...
+  *
+  * Return: rot
+  *
   */
-char *rot13(char *s)
+char *rot13(char *p)
 {
-	int a = 0;
+	char *rot = p;
+	int j = 0;
+	char rotvalue1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rotvalue2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	while (s[a])
+	while (*rot)
 	{
-		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'))
+		for (j = 0; rotvalue1[j]; j++)
 		{
-			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
+			if (*rot == rotvalue1[j])
 			{
-				s[a] -= 13;
+				*rot = rotvalue2[j];
 				break;
 			}
-
-			s[a] += 13;
-			break;
 		}
-
-		a++;
+		rot++;
 	}
-
-	return (s);
+	return (p);
 }

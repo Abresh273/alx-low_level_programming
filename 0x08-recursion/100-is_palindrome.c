@@ -12,9 +12,12 @@ int is_palindrome(char *s)
 	if (*s == '\0')
 	{
 		return (1);
-	}else{
+	}
+	else
+	{
 	
-	return (0);
-}}
+		return (0);
+	}
+}
 
 

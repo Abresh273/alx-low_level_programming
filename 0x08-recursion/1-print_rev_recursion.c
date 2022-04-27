@@ -10,17 +10,16 @@
  * Return : Always 0.
  */
 
+
 void _print_rev_recursion(char *s)
 {
-	int i = 1;
-        if(s[i] == '\0')
+	if (*s == '\0')
 	{
-		_putchar(s[-i]);
-		return (0);
-
-
+		return;
 	}
-	  i++;
-	 _print_rev_recursion(*s);
 
+	s++;
+	_print_rev_recursion(s);
+	s--;
+	_putchar(*s);
 }

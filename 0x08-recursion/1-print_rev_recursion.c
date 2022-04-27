@@ -12,7 +12,15 @@
 
 void _print_rev_recursion(char *s)
 {
-        _putchar(*s);
-	return (0);
+	int i = 1;
+        if(s[i] == '\0')
+	{
+		_putchar(s[-i]);
+		return (0);
+
+
+	}
+	  i++;
+	 _print_rev_recursion(*s);
 
 }

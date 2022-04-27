@@ -18,7 +18,8 @@ void _puts_recursion(char *s)
 	if(s[i] != '\0')
 	{
 		
-                _puts_recrusion(s[i])
+                _puts_recrusion(s[i]);
+		return (0);
 	}
 	
 

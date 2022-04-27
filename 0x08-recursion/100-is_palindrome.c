@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 		return (1);
 	}else{
 	
-	return (is_palindrome(s));
+	return (0);
 }}
 
 

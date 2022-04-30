@@ -1,2 +1,2 @@
 #!bin/bash
-ar -cr main.h
+ar rc libmy.a main.h

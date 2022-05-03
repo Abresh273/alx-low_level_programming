@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 
+=======
+ar rc libmy.a main.o
+>>>>>>> 0e39fa65da3b8d01114c5c18723d0d6f7b2ba5ec

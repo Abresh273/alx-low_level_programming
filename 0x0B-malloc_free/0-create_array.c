@@ -10,6 +10,6 @@
 char *create_array(unsigned int size, char c)
 {
 
-char p[size]=""
+char p[size];
 
 }

@@ -5,7 +5,7 @@
 *
 *
 */
-int _isupper(int c)
+int _abs(int n)
 {
   
 }

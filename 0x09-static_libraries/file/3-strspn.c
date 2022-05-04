@@ -5,7 +5,7 @@
 *
 *
 */
-int _isupper(int c)
+unsigned int _strspn(char *s, char *accept)
 {
   
 }

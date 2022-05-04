@@ -5,7 +5,7 @@
 *
 *
 */
-int _isupper(int c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
   
 }

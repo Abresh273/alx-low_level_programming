@@ -5,7 +5,7 @@
 *
 *
 */
-int _isupper(int c)
+char *_strchr(char *s, char c)
 {
   
 }

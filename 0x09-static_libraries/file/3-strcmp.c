@@ -5,7 +5,7 @@
 *
 *
 */
-int _isupper(int c)
+int _strcmp(char *s1, char *s2)
 {
   
 }

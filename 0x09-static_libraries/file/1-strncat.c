@@ -5,7 +5,7 @@
 *
 *
 */
-int _isupper(int c)
+char *_strncat(char *dest, char *src, int n)
 {
   
 }

@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  *  * main - create 2 pairs of number
  *   * Return: 0

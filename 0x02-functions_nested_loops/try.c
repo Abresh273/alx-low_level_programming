@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * 
@@ -11,8 +11,7 @@ int main(void)
 {
 int i = 97;
 for (i; i<=122; i++){
-_putchar("%c",i);
+printf("%c",i);
 }
-_putchar("\n");
+printf("\n");
 }
-

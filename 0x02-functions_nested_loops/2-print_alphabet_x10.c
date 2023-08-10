@@ -11,7 +11,7 @@ int main(void){
 int i = 0;
 
 
-for (i; i <= 10; i++){
+for (i = 0; i <= 10; i++){
 
 _putchar("%d",i);
 }

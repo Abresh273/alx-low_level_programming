@@ -9,6 +9,11 @@
 int main(void)
 {
 /* using putchra*/
-_putchar("_putchar\n");
+char a[] = "_putchar";
+
+for (i=0;i<=8; i++){
+_putchar(a[i]);
+}
+
 return (0);
 }

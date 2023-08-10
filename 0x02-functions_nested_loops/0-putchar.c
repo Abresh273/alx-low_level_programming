@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
  *purpose : the function
@@ -9,6 +9,6 @@
 int main(void)
 {
 /* using putchra*/
-printf("_putchar\n");
+_putchar("_putchar\n");
 return (0);
 }

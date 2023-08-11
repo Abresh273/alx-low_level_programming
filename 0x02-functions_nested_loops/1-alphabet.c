@@ -15,5 +15,7 @@ for (i= 'a'; i<= 'z'; i++){
 printf("%d",i);
 }
 printf("\n");
+
+return (0);
 }
 

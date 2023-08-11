@@ -15,7 +15,7 @@ for (a = 'a'; a<='z'; a++){
 
 _putchar(a);
 }
-return (0);
+return;
 }
 
 

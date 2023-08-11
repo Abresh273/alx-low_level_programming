@@ -14,7 +14,7 @@ char a = 'a';
 
 for (a = 'a'; a<='z'; a++){
 
-_putcher(a);
+_putchar(a);
 }
 
 

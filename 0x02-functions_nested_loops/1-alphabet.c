@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char i = "a";
+char i = a;
 for (i="a"; i<="z"; i++){
 printf("%d",i);
 }

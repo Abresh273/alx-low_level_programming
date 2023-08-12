@@ -1,15 +1,16 @@
 #include "main.h"
+/**
+ * _abs - returns absolute value of an int
+ * @n: integer from which to get an absolute value
+ * Return: Void.
+ */
 
+int _abs(int n)
+{
 
-
-
-int _abs(int i){
-
-if(i > 0){
-return (i);
-}else{
-return (-1*i);
-}
-
-return (0);
+	if (n < 0)
+	{
+		return (n * -1);
+	}
+	return (n);
 }

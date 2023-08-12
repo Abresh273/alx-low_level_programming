@@ -3,12 +3,12 @@
 
 
 
-int _abs(int){
+int _abs(int i){
 
-if(int > 0){
-return (int);
+if(i > 0){
+return (i);
 }else{
-return (-1*int);
+return (-1*i);
 }
 
 return (0);
